@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="ETF & Stock Dashboard", layout="wide")
 
-DATA_PATH = "ETF_Stock_Analyzer.xlsx"
+DATA_PATH = "Download ETF_Stock_Analyzer.xlsx"
 
 @st.cache_data
 def load_data():
